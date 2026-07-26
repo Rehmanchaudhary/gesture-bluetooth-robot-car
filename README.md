@@ -3,8 +3,7 @@
 Robot car controlled via gesture and voice commands, relayed over Bluetooth.
 
 ## Demo
-![demo](gesture robot car.png)
-## Hardware Used
+![demo](gesture-robot-car.png)## Hardware Used
 - Arduino Uno
 - L298N Motor Driver
 - 2× DC Motors
