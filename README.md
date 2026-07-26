@@ -2,6 +2,8 @@
 
 Robot car controlled via gesture and voice commands, relayed over Bluetooth.
 
+## Demo
+![demo](gesture robot car.png)
 ## Hardware Used
 - Arduino Uno
 - L298N Motor Driver
@@ -18,4 +20,8 @@ generation, and direction switching to drive the L298N motor driver in real time
 `Arduino Uno` `Embedded C` `L298N` `HC-05` `PWM`
 
 ## What I Learned
-[add your own line here — what was the trickiest part to get working]
+Getting reliable direction control meant carefully mapping each Bluetooth command
+to the correct combination of IN1/IN2/IN3/IN4 states on the L298N — small wiring
+or logic mistakes there show up immediately as a motor spinning the wrong way.
+Working with PWM for speed control also meant balancing responsiveness against
+smooth, controllable movement rather than jerky on/off motion.
